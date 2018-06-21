@@ -1,0 +1,23 @@
+# Mnożenie macierzy wykorzystując biblioteki
+# # Używając numpy oraz operatora @
+import numpy as np
+
+def matrix_multiplication(A, B):
+    """
+    >>> A = [[1, 0], [0, 1]]
+    >>> B = [[4, 1], [2, 2]]
+    >>> matrix_multiplication(A, B)
+    array([[4, 1],
+       [2, 2]])
+    """
+
+    A2 = np.array(A)
+    B2 = np.array(B)
+
+    # C = A2@B2
+    C = A2.dot(B2)
+    ## lub C=A*B ,ale nie działa tak samo
+
+    print(C)
+
+    pass
