@@ -102,3 +102,14 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# InteliJ
+.idea/
+venv/
+.venv/
+.virtualenv/
+virtualenv/
+venv-3.7/
+venv-3.6/
+.venv-3.7/
+.venv-3.6/
